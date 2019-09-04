@@ -10,8 +10,13 @@ namespace repos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helloooo");
-            Console.ReadKey();
+            string first, last;
+            Console.WriteLine("Enter your name: ");
+            first = Console.ReadLine();
+            Console.WriteLine("Enter your name: ");
+            last = Console.ReadLine();
+            Console.WriteLine("Hello {1}", first, last);
+            Console.ReadLine();
         }
     }
 }
